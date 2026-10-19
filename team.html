@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work24 - สมาชิกจัดทำ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/audio.js" defer></script>
+</head>
+<body class="antialiased pt-20">
+    <audio id="bg-music" loop><source src="https://cdn.discordapp.com/attachments/1561279279466160138/1561290565801353357/sonican-lo-fi-music-loop-sentimental-jazzy-love-473154.mp3" type="audio/mpeg"></audio>
+    <div id="music-container" class="fixed top-24 right-4 md:right-6 z-50 bg-[#FFB6B9] hover:bg-[#FF9A9E] text-[#5C3D2E] rounded-full p-2 md:px-4 md:py-2.5 shadow-lg transition-all duration-300 flex items-center gap-2 border-2 border-white group">
+        <button id="music-toggle" class="flex items-center justify-center gap-2 cursor-pointer outline-none">
+            <span id="music-icon" class="text-xl group-hover:animate-bounce transition-transform">🔇</span>
+            <span id="music-text" class="hidden md:inline font-medium text-sm whitespace-nowrap">เล่นเพลง</span>
+        </button>
+    </div>
+
+    <nav class="glass-nav fixed w-full top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 h-20 flex justify-between items-center">
+            <a href="index.html" class="font-bold text-2xl text-[#E88D67]">Thai<span class="text-[#5C3D2E]">Desserts</span></a>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="index.html" class="hover:text-[#E88D67]">หน้าแรก</a>
+                <a href="history.html" class="hover:text-[#E88D67]">ประวัติความเป็นมา</a>
+                <a href="recipes.html" class="hover:text-[#E88D67]">วิธีทำขนม</a>
+                <a href="media.html" class="hover:text-[#E88D67]">มัลติมีเดีย</a>
+                <a href="team.html" class="text-[#E88D67]">สมาชิกจัดทำ</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-24 bg-[#FAF6F0] relative min-h-[calc(100vh-160px)]">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-[#5C3D2E] mb-4">สมาชิกผู้จัดทำ</h2>
+                <div class="w-24 h-1 bg-[#E88D67] mx-auto rounded-full mb-4"></div>
+                <p class="text-gray-600">วิชา Multimedia System (กลุ่ม WORK24)</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+                <div class="bg-white rounded-3xl p-6 shadow-md hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300 text-center">
+                    <div class="w-20 h-20 mx-auto bg-[#F3E9DD] rounded-full mb-4 flex items-center justify-center text-3xl shadow-sm">🧑‍💻</div>
+                    <h3 class="text-lg font-semibold text-[#5C3D2E] mb-1">นาย เจษฎาภรณ์ ประกอบเกื้อ</h3>
+                    <p class="text-[#E88D67] font-medium text-sm mb-2">รหัส: 016830664005-8</p>
+                    <p class="text-gray-500 text-sm">หน้าที่: ออกแบบเว็บ / โค้ด</p>
+                </div>
+                <div class="bg-white rounded-3xl p-6 shadow-md hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300 text-center">
+                    <div class="w-20 h-20 mx-auto bg-[#F3E9DD] rounded-full mb-4 flex items-center justify-center text-3xl shadow-sm">👩‍🎨</div>
+                    <h3 class="text-lg font-semibold text-[#5C3D2E] mb-1">นาย ศุภกร วิชัยสุนทร</h3>
+                    <p class="text-[#E88D67] font-medium text-sm mb-2">รหัส: 016830664014-0</p>
+                    <p class="text-gray-500 text-sm">หน้าที่: จัดหาภาพ / ตกแต่ง</p>
+                </div>
+                <div class="bg-white rounded-3xl p-6 shadow-md hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300 text-center">
+                    <div class="w-20 h-20 mx-auto bg-[#F3E9DD] rounded-full mb-4 flex items-center justify-center text-3xl shadow-sm">🎬</div>
+                    <h3 class="text-lg font-semibold text-[#5C3D2E] mb-1">นาย คุณากร ศรีรัตน์</h3>
+                    <p class="text-[#E88D67] font-medium text-sm mb-2">รหัส: 016830664011-6</p>
+                    <p class="text-gray-500 text-sm">หน้าที่: ถ่ายทำ / ตัดต่อวิดีโอ</p>
+                </div>
+                <div class="bg-white rounded-3xl p-6 shadow-md hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300 text-center">
+                    <div class="w-20 h-20 mx-auto bg-[#F3E9DD] rounded-full mb-4 flex items-center justify-center text-3xl shadow-sm">🎵</div>
+                    <h3 class="text-lg font-semibold text-[#5C3D2E] mb-1">นางสาว เจือจันทร์ อร่ามเรือง</h3>
+                    <p class="text-[#E88D67] font-medium text-sm mb-2">รหัส: 016830664008-2</p>
+                    <p class="text-gray-500 text-sm">หน้าที่: เสียงประกอบ / พรีเซนต์</p>
+                </div>
+                <div class="bg-white rounded-3xl p-6 shadow-md hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300 text-center">
+                    <div class="w-20 h-20 mx-auto bg-[#F3E9DD] rounded-full mb-4 flex items-center justify-center text-3xl shadow-sm">📝</div>
+                    <h3 class="text-lg font-semibold text-[#5C3D2E] mb-1">นางสาว ณิชภัทร ราชรินทร์</h3>
+                    <p class="text-[#E88D67] font-medium text-sm mb-2">รหัส: 016830664007-4</p>
+                    <p class="text-gray-500 text-sm">หน้าที่: รวบรวมเนื้อหา / เรียบเรียง</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#5C3D2E] text-white py-8 text-center">
+        <p class="font-light">© 2026 มนต์เสน่ห์แห่งขนมไทย | Assignment วิชา Multimedia System</p>
+    </footer>
+</body>
+</html>
